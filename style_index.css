@@ -1,0 +1,87 @@
+body {
+	background-color:		#ffaaaa;
+}
+
+/* HEADER AREA */
+header {
+	background-color:		#ffbbbb;
+	display:				flex;
+	justify-content:		center;
+	box-shadow:				1px 2px 4px maroon;
+	height:					10%;
+	padding:				1.5vmax 0;
+}
+
+#logo-area {
+	display:				flex;
+	justify-content:		center;
+	align-items:			center;
+	color:					darkred;
+	text-shadow:			1px 2px 1px maroon;
+	font-size:				2vmax;
+}
+
+/* MAIN AREA */
+main {
+	display:				flex;
+	justify-content:		center;
+	position:				fixed;
+	width:					100%;
+	height:					100%;
+}
+
+.timer-card {
+	display:				flex;
+	flex-direction:			column;
+	align-items:			center;
+	width:					25%;
+	height:					40%;
+	margin:					10% 0 0 0;
+	border-radius:			10px;
+	background-color:		#ffbbbb;
+	box-shadow:				1px 1px 4px maroon, -1px -1px 4px maroon;
+}
+
+.timer-card h3 {
+	margin:					2vmax;
+	font-size:				1.5vmax;
+	color:					darkred;
+	text-shadow:			1px 1px 1px maroon;	
+}
+
+.timer-display {
+	display:				flex;
+	justify-content:		center;
+	align-items:			top;
+	border-radius:			10px;
+	padding:				1vmax;
+	border:					4px solid maroon;
+	box-shadow:				inset 0 0 2px 2px darkred;
+	background-color:		#ffaaaa;
+}
+
+.timer {
+	color:					orange;
+	text-shadow:			1px 1px 4px maroon, -1px -1px 4px maroon;
+	top:					0;
+	width:					100%;
+	font-size:				4vmax;
+}	 
+
+.timer-card button {
+	color:					maroon;
+	font-size:				1.5vmax;
+	font-weight:			bold;
+	background-color:		lightsalmon;
+	width:					8vmax;
+	height:					3vmax;
+	margin:					3vmax 0 0 0;
+	border:					none;
+	box-shadow:				1px 1px 1px 2px maroon, -1px -1px 1px 2px maroon;
+	transition:				0.3s;
+}
+.timer-card button:hover {
+	background-color:		gold;
+	box-shadow:				1px 1px 1px 4px orange, -1px -1px 1px 4px orange;
+	cursor:					pointer;
+}
